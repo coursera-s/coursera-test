@@ -40,15 +40,12 @@
 .heading {
   border: 2px solid orange;
   position: relative;
-  height: auto;    
-  margin-right: 15px;    
-  margin-left: 15px;    
-  margin-bottom: 15px;    
-  padding: 15px;    
-  padding-top: 35px;
+  min-height: 150px;    
+  margin: 15px;    
+  padding-top: 10%;
+  padding-bottom: 5%;
   background-color: #ffffe0;
-  text-align: center;
-  
+   
 }
 
 h1 {
@@ -68,12 +65,11 @@ section h2 {
 
 .heading p {
   text-align: left;
-  width: 100%;
+  width: 95%;
   height: auto;
-  font-size: 100%;
-  margin-right: auto;
-  margin-left: auto;
-  padding: 15px 5px 5px 5px;
+  font-size: 1em;
+  margin-right: 15px;
+  margin-left: 15px;
 }
 
 /********** Desktop devices only **********/
