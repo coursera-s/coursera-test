@@ -1,14 +1,10 @@
 /********** Base styles **********/
 * {
-  box-sizing: border-box;
-}  
-
-body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-}
-
+}  
 
 #chicken {
   background-color: #00bfff;
@@ -16,7 +12,7 @@ body {
   border-bottom: 2px solid orange;
   position: absolute;
   right: 0px;
-  top: -20px;
+  top: -0px;
   width: 33.33%;
 }
 
@@ -26,7 +22,7 @@ body {
   border-bottom: 2px solid orange;
   position: absolute;
   right: 0px;
-  top: -20px;
+  top: 0px;
   width: 33.33%;
 
 }
@@ -37,38 +33,47 @@ body {
   border-bottom: 2px solid orange;
   position: absolute;
   right: 0px;
-  top: -20px;
+  top: 0px;
   width: 33.33%;
 }
 
 .heading {
   border: 2px solid orange;
   position: relative;
-  min-height: 170px;    
+  height: auto;    
   margin-right: 15px;    
   margin-left: 15px;    
   margin-bottom: 15px;    
   padding: 15px;    
   padding-top: 35px;
   background-color: #ffffe0;
+  text-align: center;
+  
 }
 
 h1 {
   margin-bottom: 15px;
   margin-top: 15px;
   text-align: center;
-  font-size: 175%;
+  font-size: 1.75em;
 }
 
-h2 {
+section h2 {
   text-align: center;
-  font-size: 125%
+  font-size: 1.25em;
+  padding-top: 2px;
+  padding-bottom: 2px;
+
 }
 
-p {
+.heading p {
+  text-align: left;
   width: 100%;
   height: auto;
   font-size: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 15px 5px 5px 5px;
 }
 
 /********** Desktop devices only **********/
@@ -117,8 +122,8 @@ p {
 /********** Tablet devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: right;
-}
+    float: left;
+  }
   .col-md-1 {
     width: 8.33%;
   }
@@ -161,7 +166,6 @@ p {
 @media (max-width: 767px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
     float: left;
-    
 }
   .col-sm-1 {
     width: 8.33%;
