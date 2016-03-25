@@ -3,12 +3,12 @@
   font-family: "tahoma", sans-serif;
 }
 .content-title {
-  font-size: 20px;
-  padding-bottom: 5px;
+  font-size: 1.5em;
+  padding-bottom: .5em;
 }
 
 .content {
-  background-color: #858385;
+    background-color: rgba(0,50,50, .5);
     padding: 15px;
     margin-bottom: 20px;
 }
@@ -19,9 +19,9 @@
 
 .nav.navbar-nav li a{
 /*  border: 2px solid blue;*/
-  font-weight: 200;
+    font-weight: 200;
     font-size: 1.5em;
-}
+  }
 
 .nav.navbar-nav li:nth-child(2) a{
   border-top: 0;
@@ -29,7 +29,7 @@
 }
 
 .navbar-brand {
-  font-size: 25px;
+  font-size: 2em;
 }
 
 a[href="#top"] {
